@@ -1,0 +1,26 @@
+{
+  "name": "my-redux-lib",
+  "version": "1.0.0",
+  "description": "A simple personal implementation of the concept of flux and redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miladxsar23/my-redux-lib.git"
+  },
+  "keywords": [
+    "redux",
+    "flux",
+    "data-flow",
+    "javascript",
+    "design-pattern"
+  ],
+  "author": "Milad shiriyan Dehkordi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Miladxsar23/my-redux-lib/issues"
+  },
+  "homepage": "https://github.com/Miladxsar23/my-redux-lib#readme"
+}
