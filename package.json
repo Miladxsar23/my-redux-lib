@@ -4,7 +4,7 @@
   "description": "A simple personal implementation of the concept of flux and redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": ""
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/Miladxsar23/my-redux-lib/issues"
   },
-  "homepage": "https://github.com/Miladxsar23/my-redux-lib#readme"
+  "homepage": "https://github.com/Miladxsar23/my-redux-lib#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10"
+  }
 }
