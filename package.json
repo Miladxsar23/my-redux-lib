@@ -28,5 +28,9 @@
     "@babel/core": "^7.17.10",
     "@babel/node": "^7.17.10",
     "@babel/preset-env": "^7.17.10"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   }
 }
