@@ -3,7 +3,6 @@
 function createStore(reducer, initialState) {
   let _state = initialState;
   let _listeners = [];
-  const getState = () => _state;
   //   fire and forget
   const dispatch = (action) => {
     _state = reducer(_state, action);
@@ -13,6 +12,9 @@ function createStore(reducer, initialState) {
   };
   const subscribe = (listenerFn) => {
     _listeners.push(listenerFn);
+  };
+  const getState = () => {
+    return _state;
   };
   return { dispatch, getState, subscribe };
 }
