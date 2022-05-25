@@ -23,7 +23,8 @@ function combineReducers(combineObject) {
   function rootReducer(state, action) {
     let result = {};
     for (let key of Object.keys(combineObject)) {
-      result[key] = combineObject[key](state, action);
+      const targetState = state[key]
+      result[key] = combineObject[key](targetState, action);
     }
     return result;
   }
