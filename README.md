@@ -1,4 +1,4 @@
-# my-redux-lib  &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Miladxsar23/Mailing-robot/blob/master/LICENSE) ![GitHub license](https://img.shields.io/static/v1?label=Vallina&message=JS&color=yellow)
+# my-redux-lib  &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Miladxsar23/my-redux-lib/blob/master/LICENSE) 
 Redux is one of the most beautiful implementations of flux design pattern that implements one-way data flow.  since I like to build my own version of every library I learn to better understand it. In this section, I want to run a simple example of a Redux library for myself. I'm glad to know your opinion :)
 ## _A personal implementation of the Redux library_
 [![POWERED-BY](https://user-images.githubusercontent.com/53997528/170557836-15c06b2f-6cff-4c3f-ad2d-67f689dcb511.png)](https://github.com/Miladxsar23)
